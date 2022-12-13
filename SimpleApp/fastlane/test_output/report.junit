@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="2" failures="0">
+    <testsuite name="SimpleAppTests" tests="2" failures="0" skipped="0" time="0.3698030710220337">
+        <properties>
+          <property name="Configuration" value="Test Scheme Action"/>
+        </properties>
+        <testcase classname="SimpleAppTests" name="testExample()" time="0.001031041145324707">
+        </testcase>
+        <testcase classname="SimpleAppTests" name="testPerformanceExample()" time="0.368772029876709">
+        </testcase>
+    </testsuite>
+</testsuites>
