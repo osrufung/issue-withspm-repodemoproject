@@ -1,85 +1,3 @@
-GIT
-  remote: https://github.com/XINGMobile/cocoapods-amicable.git
-  revision: 66691745f8347673eb5b40cf8aee1b754ee957ee
-  tag: 0.3.1
-  specs:
-    cocoapods-amicable (0.3.1)
-
-GIT
-  remote: https://github.com/XINGMobile/fastlane-plugin-xing_release.git
-  revision: ce649a9f7a857dc2713cc7330d455aa2c27cccc6
-  tag: 0.8.0
-  specs:
-    fastlane-plugin-xing_release (0.8.0)
-      plist (>= 3.1.0)
-
-GIT
-  remote: https://github.com/XINGMobile/fastlane-plugin_xing_calabash.git
-  revision: e13722748b1cfed39bcf07941c368740d2b39d90
-  tag: v0.0.7
-  specs:
-    fastlane-plugin-xing_calabash (0.0.7)
-
-GIT
-  remote: https://github.com/XINGMobile/hanamura2.git
-  revision: d73389b571c51992d9f65c039eff1d3c987f95b5
-  tag: 1.1.0
-  specs:
-    hanamura2 (1.1.0)
-
-GIT
-  remote: https://github.com/XINGMobile/ios-lotto.git
-  revision: 3063574f0c6dcb61e70f911db88fa9cf40c46930
-  tag: 0.5.0
-  specs:
-    ios-lotto (0.5.0)
-      activesupport
-      claide
-      highline
-      octokit
-
-GIT
-  remote: https://github.com/XINGMobile/jjsn.git
-  revision: c38f6e8ec4d40953c5814a0b309dd7a5825dd71c
-  tag: 1.7.0
-  specs:
-    jjsn (1.7.0)
-      jenkins_api_client
-      require_all
-      slack-notifier
-      thor
-
-GIT
-  remote: https://github.com/XINGMobile/pr_changeset.git
-  revision: 33a156d7e67e9aae79ab3c771b63e595f5e5cf05
-  tag: 1.1.3
-  specs:
-    pr_changeset (1.1.3)
-      octokit
-      thor
-
-GIT
-  remote: https://github.com/XINGMobile/spasie.git
-  revision: 5ec10f0d462bbd03fef2453e450f3d0559741367
-  tag: v2.0.0
-  specs:
-    spasie (2.0.0)
-      claide (~> 1.0, >= 1.0.2)
-
-GIT
-  remote: https://github.com/sirstrahd/jenkins_api_client.git
-  revision: 30d682ffc70e70fcbe94cf6752d2fc69454ce25a
-  branch: for_using_current_master_version
-  specs:
-    jenkins_api_client (1.5.4.1)
-      addressable (~> 2.7)
-      json (>= 1.0)
-      mixlib-shellout (>= 1.1.0)
-      nokogiri (~> 1.6)
-      socksify (>= 1.7.0)
-      terminal-table (>= 1.4.0)
-      thor (>= 0.16.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -115,8 +33,6 @@ GEM
     aws-sigv4 (1.5.2)
       aws-eventstream (~> 1, >= 1.0.2)
     babosa (1.0.4)
-    chef-utils (18.0.161)
-      concurrent-ruby
     claide (1.1.0)
     cocoapods (1.11.3)
       addressable (~> 2.8)
@@ -313,8 +229,6 @@ GEM
     mini_magick (4.11.0)
     mini_mime (1.1.2)
     minitest (5.16.3)
-    mixlib-shellout (3.2.7)
-      chef-utils
     molinillo (0.8.0)
     multi_json (1.15.0)
     multipart-post (2.0.0)
@@ -327,9 +241,6 @@ GEM
       racc (~> 1.4)
     nokogiri (1.13.9-x86_64-darwin)
       racc (~> 1.4)
-    octokit (5.6.1)
-      faraday (>= 1, < 3)
-      sawyer (~> 0.9)
     open4 (1.3.4)
     optparse (0.1.1)
     os (1.1.4)
@@ -342,7 +253,6 @@ GEM
       declarative (< 0.1.0)
       trailblazer-option (>= 0.1.1, < 0.2.0)
       uber (< 0.2.0)
-    require_all (3.0.0)
     retriable (3.1.2)
     rexml (3.2.5)
     rouge (2.0.7)
@@ -353,9 +263,6 @@ GEM
     rubyzip (2.3.2)
     sassc (2.4.0)
       ffi (~> 1.9)
-    sawyer (0.9.2)
-      addressable (>= 2.3.5)
-      faraday (>= 0.17.3, < 3)
     security (0.1.3)
     signet (0.17.0)
       addressable (~> 2.8)
@@ -365,14 +272,11 @@ GEM
     simctl (1.6.8)
       CFPropertyList
       naturally
-    slack-notifier (2.4.0)
-    socksify (1.7.1)
     sqlite3 (1.5.3-arm64-darwin)
     sqlite3 (1.5.3-x86_64-darwin)
     terminal-notifier (2.0.0)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
-    thor (1.2.1)
     trailblazer-option (0.1.2)
     tty-cursor (0.7.1)
     tty-screen (0.8.1)
@@ -410,7 +314,6 @@ PLATFORMS
 
 DEPENDENCIES
   cocoapods
-  cocoapods-amicable!
   cocoapods-dependencies
   cocoapods-patch
   fastlane
@@ -418,18 +321,10 @@ DEPENDENCIES
   fastlane-plugin-instabug_official
   fastlane-plugin-json
   fastlane-plugin-profile_expiration_info
-  fastlane-plugin-xing_calabash!
-  fastlane-plugin-xing_release!
   ffi
-  hanamura2!
-  ios-lotto!
   jazzy
-  jenkins_api_client!
-  jjsn!
   nokogiri
   plist
-  pr_changeset!
-  spasie!
 
 BUNDLED WITH
    2.3.18
