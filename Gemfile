@@ -1,9 +1,5 @@
 # frozen_string_literal: true
 
-if !ENV["HOMEBREW_GITHUB_ACCESS_TOKEN"]
-  raise "Environmental variable HOMEBREW_GITHUB_ACCESS_TOKEN is not set"
-end
-`git config --global credential.https://github.com/.helper "! f() { echo username=x-access-token; echo password=$HOMEBREW_GITHUB_ACCESS_TOKEN; };f"`
 
 source 'https://rubygems.org'
 
