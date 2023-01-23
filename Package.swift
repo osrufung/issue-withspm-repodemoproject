@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/SDWebImage/SDWebImage.git", exact: "5.12.2"),
-        .package(url: "https://github.com/braze-inc/braze-ios-sdk.git", exact: "4.4.2")
+        //.package(url: "https://github.com/braze-inc/braze-ios-sdk.git", exact: "4.4.2")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -23,7 +23,7 @@ let package = Package(
             name: "ExampleBitriseIssue",
             dependencies: [
                 .product(name: "SDWebImage", package: "SDWebImage"),
-                .product(name: "AppboyUI", package: "braze-ios-sdk")
+                //.product(name: "AppboyUI", package: "braze-ios-sdk")
             ]),
         .testTarget(
             name: "ExampleBitriseIssueTests",
