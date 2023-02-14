@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "7F66CC3F-14FE-4E4B-B889-A5D863998473",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:SimpleApp.xcodeproj",
+      "identifier" : "AA351E0F2915537D00B9F74D",
+      "name" : "SimpleApp"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:SimpleApp.xcodeproj",
+        "identifier" : "AA6FD3C9291BD71D00956255",
+        "name" : "SimpleAppTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:SimpleApp.xcodeproj",
+        "identifier" : "AA46835A299AA2E7009D604C",
+        "name" : "SimpleAppTestsExtra"
+      }
+    }
+  ],
+  "version" : 1
+}
